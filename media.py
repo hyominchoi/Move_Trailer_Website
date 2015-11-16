@@ -12,6 +12,7 @@ class Movie(object):
 
     @property
     def title(self):
+    	""" 'title' property """
     	return self._title
      
     @title.setter
@@ -20,6 +21,7 @@ class Movie(object):
 
     @property
     def storyline(self):
+    	""" 'storyline' property """
     	return self._storyline
     
     @storyline.setter
@@ -28,6 +30,7 @@ class Movie(object):
 
     @property
     def poster_image_url(self):
+    	""" 'poster_image_url' property """
     	return self._poster_image_url
     
     @poster_image_url.setter
@@ -36,6 +39,7 @@ class Movie(object):
 
     @property
     def trailer_youtube_url(self):
+    	""" 'trailer_youtube_url' property """
     	return self._trailer_youtube_url
 
     @trailer_youtube_url.setter
